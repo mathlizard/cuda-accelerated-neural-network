@@ -8,6 +8,7 @@
 #include <assert.h>
 
 #define ID(i,j,k) (( i * k ) + j)
+
 #define ARG(i,j) <<< dim3(i,j,1), dim3(1,1,1) >>>
 
 // computes the sum of matrices:  c = (a + b)
